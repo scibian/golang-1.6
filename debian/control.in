@@ -1,13 +1,13 @@
 Source: golang-X.Y
 Section: devel
 Priority: optional
-Maintainer: Go Compiler Team <pkg-golang-devel@lists.alioth.debian.org>
+Maintainer: Scibian Project <packaging@scibian.org>
 Uploaders: Michael Stapelberg <stapelberg@debian.org>,
            Paul Tagliamonte <paultag@debian.org>,
            Tianon Gravi <tianon@debian.org>,
            Michael Hudson-Doyle <michael.hudson@ubuntu.com>
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-golang/golang.git
-Vcs-Git: git://anonscm.debian.org/pkg-golang/golang.git
+Vcs-Browser: https://github.com/scibian/golang-X.Y
+Vcs-Git: https://github.com/scibian/golang-X.Y
 Build-Depends: debhelper (>= 7.4.10),
                golang-any (>= 2:1.4~) | golang-go (>= 2:1.4~) | gccgo (>= 4:5~),
                netbase
