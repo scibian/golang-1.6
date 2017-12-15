@@ -1,14 +1,28 @@
+golang-1.6 (1.6.3-2) unstable; urgency=medium
+
+  * Backport CL 29995 for tzdata 2016g changes (Closes: #839298)
+
+ -- Tianon Gravi <tianon@debian.org>  Mon, 03 Oct 2016 15:12:11 -0700
+
+golang-1.6 (1.6.3-1) unstable; urgency=medium
+
+  [ Michael Hudson-Doyle ]
+  * Update to new upstream release.
+
+  [ Paul Tagliamonte ]
+  * Use a secure transport for the Vcs-Git and Vcs-Browser URL
+
+  [ Tianon Gravi ]
+  * Update Vcs-Git to reference a particular branch
+  * Remove outdated README files (README.source and README.Debian)
+
+ -- Michael Hudson-Doyle <michael.hudson@ubuntu.com>  Tue, 19 Jul 2016 15:25:53 +1200
+
 golang-1.6 (1.6.2-2~bpo8+1sci8u1) scibian8; urgency=medium
 
   * Scibian8 rebuild.
 
  -- Thomas Hamel <thomas-externe.hamel@edf.fr>  Thu, 14 Dec 2017 15:50:27 +0100
-
-golang-1.6 (1.6.2-2~bpo8+1) jessie-backports; urgency=medium
-
-  * Rebuild for jessie-backports.
-
- -- Tianon Gravi <tianon@debian.org>  Thu, 30 Jun 2016 11:15:23 -0700
 
 golang-1.6 (1.6.2-2) unstable; urgency=medium
 
